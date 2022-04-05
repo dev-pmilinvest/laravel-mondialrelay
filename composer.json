@@ -1,0 +1,30 @@
+{
+  "name": "pmilinvest/laravel-mondialrelay",
+  "description": "Client Laravel pour l'API Mondial Relay",
+  "keywords": ["laravel", "laravel7", "mondial relay", "api"],
+  "require": {
+    "quentinbontemps/php-mondialrelay-api": "^1.0"
+  },
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pmilinvest",
+      "email": "dev3.info@pmilinvest.fr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pmilinvest\\LaravelMondialRelay\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Pmilinvest\\LaravelMondialRelay\\LaravelMondialRelayServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
